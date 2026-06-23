@@ -1,29 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Savan Parmar | Portfolio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+header{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+header h1{
+font-size:3rem;
+}
+
+header h2{
+color:#38bdf8;
+margin:10px 0;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#38bdf8;
+color:black;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+section{
+padding:60px 20px;
+max-width:1000px;
+margin:auto;
+}
+
+h3{
+font-size:2rem;
+margin-bottom:20px;
+color:#38bdf8;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+border-radius:15px;
+margin-top:15px;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:15px;
+}
+
+.skill{
+background:#1e293b;
+padding:15px;
+border-radius:10px;
+text-align:center;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#020617;
+margin-top:50px;
+}
+</style>
+
 </head>
 <body>
+
+<header>
 <h1>Savan Parmar</h1>
 <h2>Diploma Electrical Engineering Student</h2>
 <p>Video Editor | Ahmedabad, Gujarat</p>
+<a href="#contact" class="btn">Contact Me</a>
+</header>
 
+<section>
 <h3>About Me</h3>
+<div class="card">
 <p>
-I am Savan Parmar, currently pursuing Diploma in Electrical Engineering.
-I am passionate about technology and video editing.
+I am Savan Parmar from Ahmedabad, Gujarat. Currently pursuing Diploma in Electrical Engineering. I am passionate about technology, video editing and learning new skills.
 </p>
+</div>
+</section>
 
+<section>
 <h3>Skills</h3>
-<ul>
-<li>Video Editing</li>
-<li>GitHub</li>
-<li>Electrical Engineering</li>
-</ul>
+<div class="skills">
+<div class="skill">Video Editing</div>
+<div class="skill">Electrical Engineering</div>
+<div class="skill">GitHub</div>
+<div class="skill">MS Office</div>
+<div class="skill">Communication</div>
+<div class="skill">Problem Solving</div>
+</div>
+</section>
 
+<section>
+<h3>Projects</h3>
+<div class="card">
+<h4>Personal Portfolio Website</h4>
+<p>My personal online portfolio hosted using GitHub Pages.</p>
+</div>
+</section>
+
+<section id="contact">
 <h3>Contact</h3>
-<p>Email: savanparmar8799@gmail.com</p>
-<p>Phone: 6356188540</p>
+<div class="card">
+<p>📧 savanparmar8799@gmail.com</p>
+<p>📱 6356188540</p>
+<p>📍 Ahmedabad, Gujarat</p>
+</div>
+</section>
+
+<footer>
+© 2026 Savan Parmar | Portfolio
+</footer>
+
 </body>
 </html>
-
